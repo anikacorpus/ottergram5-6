@@ -44,7 +44,7 @@ function getThumbnailsArray() {
 function initializeEvents() {
     'use strict';
     var thumbnails = getThumbnailsArray();
-    thumbnails.foreach(addThumbClickHandler);
+    thumbnails.forEach(addThumbClickHandler);
 }
 
 initializeEvents();
